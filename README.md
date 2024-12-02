@@ -105,10 +105,9 @@ responsive
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - Github updaten
+  - Checken of het een button of een link moet zijn
+  - 
 
 </details>
 
