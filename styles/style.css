@@ -58,14 +58,12 @@ ul:nth-of-type(1) {
 	list-style: none;
 	flex-shrink: 0;
 	text-decoration: none;
+	align-items: center;
+	color: black;
+	--color-background: #eee;
+	padding-left: 0;
 }
 
-nav {
-	display: flex;
-	color: black;
-	justify-content: space-between;
-	--color-background: #eee;
-}
 
 nav a {
 	text-decoration: none;
@@ -73,8 +71,8 @@ nav a {
 }
 
 nav img {
-	width: 4em;
-	height: 4em;
+	width: 3em;
+	height: 3em;
 	order: -1
 }
 
@@ -83,6 +81,23 @@ main a {
 	justify-content: center;
 
 }
+
+/* menu  */
+
+header {
+	border-bottom: 1px solid #E2E8F0;
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.5rem;
+}
+
+
+
+
 
 
 /* article 1 */
@@ -94,12 +109,11 @@ main article {
 article:nth-of-type(1) {
 	background-color: var(--secondary-color-background);
 	color: white;
+	position: relative;
 }
 
 article:nth-of-type(1) img {
 	width: 100%;
-
-
 }
 
 article:nth-of-type(1) a {
@@ -113,7 +127,20 @@ article:nth-of-type(1) a {
 
 article:nth-of-type(1) h1 {
 	padding: 1em;
-}
+  }
+
+  article:nth-of-type(1) h2 {
+	position: absolute;
+	top: 7em;
+	right:7em;
+	bottom:8em;
+	left: -1em;
+ }
+
+
+  
+
+
 
 /* article 2 */
 
@@ -122,6 +149,7 @@ article:nth-of-type(2) {
 	color: #eee;
 	border-radius: 1em;
 	padding-bottom: 1em;
+	position: relative;
 }
 
 article:nth-of-type(2) a {
@@ -136,7 +164,6 @@ article:nth-of-type(2) a {
 article:nth-of-type(2) img {
 	width: 100%;
 	display: block;
-	/* Voorkom rare witte ruimte rond de afbeelding */
 	border-top-left-radius: 1em;
 	border-top-right-radius: 1em;
 }
@@ -147,6 +174,18 @@ h3,
 a {
 	padding: 0 2em;
 }
+
+
+article:nth-of-type(2) h2 {
+	position: absolute;
+	top: 0;
+	right:7em;
+	left: -1em;
+	bottom: 0;
+	font-size: 2em;
+
+ }
+
 
 /* article 3 */
 
@@ -326,7 +365,7 @@ article:nth-of-type(8) div {
 /*footer*/
 footer {
 	font-size: 1.2em;
-	background-color: #006241;
+	background-color: #1e3932;
 	color: white;
 
 }
@@ -344,6 +383,12 @@ footer a {
 	padding: .25em;
 
 }
+
+footer:nth-of-type(1) ul {
+	display: block;
+	padding-left: 1em;
+}
+
 
 details {
 	padding: .25em;
