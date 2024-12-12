@@ -1,0 +1,236 @@
+@font-face {
+	font-family: "sodo-sans";
+	src: url("../fonts/sodo-sans-8.woff");
+}
+
+/* font bron: https://www.azfonts.net/fonts/sodo-sans/regular-307605/download */
+/**************/
+
+
+/* CSS REMEDY */
+/**************/
+*,
+*::after,
+*::before {
+	box-sizing: border-box;
+}
+
+/*********************/
+/* CUSTOM PROPERTIES */
+/*********************/
+:root {
+	/* startje */
+	--color-text: #111;
+	--color-background: #eee;
+	--secondary-color-background: #00754A;
+	overflow-x: hidden;
+}
+
+
+/****************/
+/* JOUW STYLING */
+/****************/
+
+body {
+	font-family: "sodo-sans";
+    background-color:#f3f3f3;
+	
+}
+
+main img {
+	width: 110%;
+    height: auto;
+}
+
+main article h3 {
+    font-size: 1.5em; 
+    display: flex;
+    padding-left: 2.5em;
+}
+
+body h3 {
+    font-size: 1em;
+}
+
+
+p {
+    color: #00000094;
+    font-size: 0.9em;
+}
+
+main a {
+   color: #00754A;
+
+}
+
+main ul:nth-of-type(1) a:nth-of-type(1) {
+    color: black;
+    background-color: white;
+    text-decoration: none;
+    padding: 0.8em;
+      border-radius: 2em;
+      margin: 2em;
+    position: relative;
+     top: -10em;
+}
+
+
+main ul:nth-of-type(1) a:nth-of-type(2) {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+    padding: 0.8em;
+    border-radius: 2em;
+    margin: 2em;
+    border: 0.09em solid white;
+    position: relative;
+     top: -11em;
+}
+
+
+
+/* a's in article */
+article a:nth-of-type(1) {
+    color: #00754A;
+    text-decoration: none;
+    padding: 0.8em;
+      border: 0.09em solid #00754A;
+      border-radius: 2em;
+      margin: 2em;
+ }
+
+ul:nth-of-type(1) h1 {
+    position: relative;
+    color: white;
+    top: 28em;
+    left: 2.5em;
+    font-size: medium;
+    
+}
+
+
+/* NAVIGATIEBALK*/
+
+/* hamburger menu */
+button:nth-of-type(1) {
+	border:none;
+	background-color: white;
+	margin-left: 22em; /* rechter kant */
+}
+
+/* @media met hulp van studentenassistenten */
+
+/* klein scherm */
+@media(min-width:400px) {
+	nav a {
+		display: none; /*niet zichtbaar*/
+		
+	}
+}
+
+/* hamburger menu */
+@media (min-width:400px) {
+	nav button { 
+		cursor: pointer;
+	}
+}
+
+@media(min-width:400px) {
+	nav details {
+		display: none;
+		
+	}
+}
+
+
+/* groot scherm */
+@media(min-width:600px) {
+	nav button {
+		display: none;
+		
+	}
+}
+
+@media(min-width:600px) {
+	nav a {
+		display: flex;
+	}
+}
+
+
+ul:nth-of-type(1) {
+	display: flex;
+	justify-content: space-between;
+	list-style: none;
+	flex-shrink: 0;
+	text-decoration: none;
+	align-items: center;
+	color: black;
+	--color-background: #eee;
+	padding-left: 0;
+}
+
+nav a {
+	text-decoration: none;
+	color: black;
+}
+
+/*starbucks logo*/
+nav img {
+	width: 3em;
+	height: 3em;
+	order: -1;
+}
+
+main a {
+	display: flex;
+	justify-content: center;
+
+}
+
+
+nav {
+    background-color: white;
+	display: flex;
+	justify-content: space-between;
+    align-items: center;
+    padding: 1.5em;
+	padding-bottom: 0;
+	padding-top: 0;
+
+}
+/* ^ NAVIGATIEBALK*/
+
+/*FOOTER*/
+footer {
+	font-size: 1em;
+	background-color: #1e3932;
+	color: white;
+
+}
+
+footer img {
+	width: 4.5em;
+	height: 4.5em;
+	padding: 1em;
+}
+
+footer a {
+	text-decoration: none;
+	color: #FFFFFFB2;
+	display: flex;
+	margin: .5em;
+	padding: .25em;
+
+}
+
+footer:nth-of-type(1) ul {
+	display: block; /* socialmedia icons naast elkaar */
+	padding-left: 1em;
+}
+
+
+details {
+	padding: .25em;
+}
+/*^ FOOTER*/

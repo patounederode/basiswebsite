@@ -1,0 +1,115 @@
+/*navigatie*/
+
+/* hulp gekregen van studentenassistenten voor navigatiebalk */
+/* klein scherm */
+
+@media(min-width:400px) {
+    nav a {
+        display: none;
+
+    }
+}
+
+@media (min-width:400px) {
+    nav button {
+        margin-left: 25em;
+    }
+}
+
+
+@media(min-width:400px) {
+    nav details {
+        display: none;
+
+    }
+}
+
+
+/* groot scherm */
+
+@media(min-width:600px) {
+    nav button {
+        display: none;
+
+    }
+}
+
+@media(min-width:600px) {
+    nav a {
+        display: flex;
+    }
+}
+
+
+ul:nth-of-type(1) {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    flex-shrink: 0;
+    text-decoration: none;
+    align-items: center;
+    color: black;
+    --color-background: #eee;
+    padding-left: 0;
+}
+
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+nav img {
+    width: 3em;
+    height: 3em;
+    order: -1
+}
+
+main a {
+    display: flex;
+    justify-content: center;
+
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 1.5em;
+}
+
+
+
+
+/*footer*/
+footer {
+    font-size: 1.2em;
+    background-color: #1e3932;
+    color: white;
+
+}
+
+footer img {
+    max-width: 25%;
+    padding: 1em;
+}
+
+footer a {
+    text-decoration: none;
+    color: #FFFFFFB2;
+    display: flex;
+    margin: .5em;
+    padding: .25em;
+
+}
+
+footer:nth-of-type(1) ul {
+    display: block;
+    padding-left: 1em;
+}
+
+
+details {
+    padding: .25em;
+}
