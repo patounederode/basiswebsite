@@ -97,9 +97,6 @@ responsive
 
   | student 1 Patoune | student 2 Aya  | student 3  Nasima | student 4 Yordi     |
   | Homepage starbucks | html pagina  |                  |                  |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
 
 
   ### Verslag van meeting
@@ -136,9 +133,7 @@ responsive
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
+  - afwezig
 - ...
 
 </details>
@@ -155,8 +150,14 @@ responsive
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
 
-</details>
+- keyboard focus, werkt niet in safari wel in chrome
+- er zijn geen h1 elementen gebruikt bij de homepage
+- niet alle tekst in de img staat in de alt
 
+- h1 elementen zijn toegevoegd in homepage
+- tekst staat in de alt
+
+</details>
 
 
 
@@ -173,8 +174,10 @@ responsive
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
+  
+
+  | Patoune    | student 2          | student 3    | student 4        |
+  | code controleren opfouten/ mediaqueries            | ---                | ---          | ---              |
   | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
   | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
   | ...            | ...                | ...          | ...              |
@@ -183,10 +186,11 @@ responsive
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - code opruimen
+- code op volgorde zetten
+- comments erbij zetten
+- responsive maken
+- microinteractie toepassen
 
 </details>
 
@@ -204,8 +208,7 @@ responsive
 
 
   ### Dit ging goed/Heb ik geleerd: 
-  Korte omschrijving met plaatjes
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+ Ik heb geleerd om Mediaqueries te gebruiken om de pagina responsive te en een microinteractie toe te toevoegen.
 
 
   ### Dit was lastig/Is niet gelukt:
