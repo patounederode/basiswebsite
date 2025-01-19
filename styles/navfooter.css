@@ -1,0 +1,286 @@
+/*navigatie*/
+
+header {
+    font-family: "sodo-sans-bold";
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+    /* header blijft aan de bovenkant */
+    position: sticky;
+    top: 0;
+    /* header boven alle inhoud */
+    z-index: 10;
+
+}
+
+header ul img {
+    width: 1.3em;
+    height: 1.3em;
+
+}
+
+header nav {
+    position: fixed;
+    inset: 0;
+    z-index: 1;
+    background-color: white;
+    padding: 1em 1.5em;
+    /************ Gekeken bij opdracht responsive hamburgermenu ****************/
+    /* https://codepen.io/pderode/pen/XWvLBwp */
+    translate: 100% 10%;
+    /* header blijft zichtbaar door 10% */
+    transition: translate 0.3s;
+    background-color: white;
+    padding: 1em;
+}
+
+header nav.toonMenu {
+    /* vult het hele scherm */
+    translate: 0% 10%;
+    font-family: "sodo-sans-light";
+    font-size: 1.3em;
+    gap: 2em;
+}
+
+/* tekst in het geopende menu */
+header nav.toonMenu ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+/* grootte van de iconen locatie en wereld in geopende menu*/
+header nav.toonMenu ul img {
+    width: 1.3em;
+    height: 1.3em;
+}
+
+
+
+/* voor breder dan 38em */
+@media (min-width: 38em) {
+    header button {
+        display: none;
+    }
+
+    header nav {
+
+        position: static;
+        translate: unset;
+        padding: 0;
+    }
+
+    header nav ul {
+        display: flex;
+
+        gap: 2em;
+    }
+
+    header nav button {
+        display: none;
+    }
+
+}
+
+/*  voor breder dan 57em */
+@media (min-width: 57em) {
+    header nav ul {
+        display: flex;
+        gap: 2em;
+    }
+}
+/************* ^ Uit opdracht responsive hamburgermenu **********************/
+
+
+/* close.svg */
+header nav button img {
+    width: 2em;
+    height: 2em;
+}
+
+/* starbucks logo */
+header img {
+    width: 3em;
+    height: 3em;
+    order: -1;
+}
+
+/* hamburger menu */
+header button {
+    cursor: pointer;
+    border: none;
+    background-color: white;
+}
+
+header nav ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+header nav a {
+    text-decoration: none;
+    color: black;
+}
+
+
+/* Geholpen door studentassistent */
+/* header voor groot scherm  */
+@media(min-width:920px) {
+
+    header img:nth-of-type(1) {
+        justify-content: start;
+    }
+
+    header button {
+        display: none;
+    }
+
+    header nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: static;
+        translate: unset;
+    }
+
+    header nav ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 2em;
+    }
+
+}
+
+
+
+
+
+
+
+
+/*footer*/
+
+/* font & kleuren */
+footer {
+    font-family: "sodo-sans-light";
+    background-color: #1e3932;
+    color: var(--color-link);
+}
+
+/* geen puntjes voor list-items */
+footer ul li {
+    list-style-type: none;
+}
+
+/* starbucks logo */
+footer img:nth-of-type(1) {
+    width: 5em;
+    height: 5em;
+    padding: 1em;
+}
+
+/* a's in de summary */
+footer details a {
+    display: block;
+    margin-bottom: 0.5em;
+    text-decoration: none;
+    color: grey;
+    padding-left: 2em;
+}
+
+
+/* summary's */
+footer details summary {
+    cursor: pointer;
+    margin-bottom: 1em;
+    padding-left: 1em;
+}
+
+/* privacy policy... */
+footer ul:nth-of-type(1) li a {
+    color: grey;
+    text-decoration: none;
+}
+
+footer ul:nth-of-type(1) li {
+    margin-bottom: 1em;
+}
+
+/* iconen social media */
+footer ul li:last-of-type img {
+    width: 5%;
+    height: 5%;
+    padding-top: 0;
+}
+
+/* home en locatie  */
+footer ul:nth-of-type(2) {
+    margin-bottom: 0;
+    padding-left: 0;
+    display: flex;
+    background-color: var(--color-link);
+    justify-content: center;
+    gap: 4em;
+    /* sticky */
+    position: sticky;
+    bottom: 0;
+    z-index: 10;
+}
+
+
+footer ul:nth-of-type(2) li a img {
+    margin-bottom: 0em;
+    width: 3.7em;
+    height: 3.7em;
+}
+
+footer ul:nth-of-type(2) li a p {
+    margin-top: -0.8em;
+    font-size: 0.8em;
+    padding: 0;
+}
+
+footer ul:nth-of-type(2) li a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "sodo-sans-bold";
+    text-decoration: none;
+    color: #00754A;
+}
+
+footer ul:nth-of-type(2) li:last-of-type a {
+    color: gray;
+}
+
+
+@media (min-width: 38em) {
+
+    /* locatie & winkels button weg bij groot scherm */
+    footer ul:nth-of-type(2) {
+        display: none;
+        padding-bottom: 0;
+    }
+
+
+    /* iconen social media weg bij groot scherm */
+    footer ul li:last-of-type img {
+        display: none;
+    }
+
+    /* privacy policy... meer ruimte aan onderkant */
+    footer ul:nth-of-type(1) li {
+        padding: 2em;
+        margin-left: 8%;
+
+    }
+
+    /* details meer naar rechts */
+    footer details {
+        margin-left: 10%;
+    }
+
+}

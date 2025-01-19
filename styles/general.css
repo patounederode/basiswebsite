@@ -1,0 +1,77 @@
+@font-face {
+	font-family: "sodo-sans";
+	src: url("../fonts/sodo-sans-8.woff");
+}
+
+@font-face {
+	font-family: "sodo-sans-light";
+	src: url("../fonts/sodo-sans-6.woff");
+}
+
+@font-face {
+	font-family: "sodo-sans-bold";
+	src: url("../fonts/sodo-sans-9.woff");
+}
+
+/* font regular: https://www.azfonts.net/fonts/sodo-sans/regular-307605/download */
+
+/* font light : https://www.azfonts.net/fonts/sodo-sans/light-307599/download  */
+
+/* font bold: https://www.azfonts.net/fonts/sodo-sans/semi-bold-307608/download */
+
+
+/* CSS REMEDY */
+/**************/
+*,
+*::after,
+*::before {
+	box-sizing: border-box;
+}
+
+/*********************/
+/* CUSTOM PROPERTIES */
+/*********************/
+:root {
+	/* startje */
+	--color-text: #111;
+	--color-background: #eee;
+	--secondary-color-background: #00754A;
+
+	--color-link:#fff;
+	--background-link::#00754A;
+}
+
+
+/****************/
+/* JOUW STYLING */
+/****************/
+
+/* :focus  */
+
+body {
+	font-family: "sodo-sans", sans-serif;
+	margin: 0; 	
+	margin-bottom: 0;
+	/* geen witte randen aan zijkant/onderkant */
+}
+
+h3 {
+	font-size: 1.5em;
+}
+
+
+main img {
+	width: 100%;
+}
+
+main a {
+	background-color: var(--background-link);
+	color: var(--color-link);
+	border-radius: 2em;
+
+	/* hele breedte innemem */
+	display: flex;
+	/* tekst in het midden de button */
+	justify-content: center;
+}
+

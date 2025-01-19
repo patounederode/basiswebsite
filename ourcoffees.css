@@ -1,0 +1,268 @@
+body {
+    font-family: "sodo-sans";
+    background-color: #f3f3f3;
+    padding-top: 0;
+
+}
+
+
+body h3 {
+    font-size: 1em;
+}
+
+p {
+    font-family: "sodo-sans-light";
+    color: #00000094;
+    font-size: 0.9em;
+}
+
+main ul img:nth-of-type(1) {
+    padding: 0;
+}
+
+main img {
+    width: 100%;
+    padding-left: 2.5em;
+    padding-right: 2.5em;
+}
+
+main article h3 {
+    font-size: 1.2em;
+    display: flex;
+    padding-left: 2.5em;
+}
+
+
+/* groene linkjes */
+main a {
+    color: #00754A;
+}
+
+/* Paginatitel Onze koffie */
+main ul:nth-of-type(1) h1 {
+    font-family: "sodo-sans-light";
+    position: absolute;
+    /*geen ruimte aan de bovenkant */
+    color: white;
+    top: 23em;
+    left: 1em;
+    font-size: 1.2em;
+}
+
+
+/* button bestel nu */
+main ul li:nth-of-type(2) a {
+    font-family: "sodo-sans-bold";
+    color: var(--color-text);
+    background-color: white;
+    text-decoration: none;
+    padding: 0.8em;
+    border-radius: 2em;
+    margin: 2em;
+    margin-left: 1em;
+    position: relative;
+    top: -11em;
+}
+
+
+/* button locatie */
+main ul li:nth-of-type(3) a {
+    text-decoration: none;
+    color: var(--color-background);
+    border: 0.05em solid grey;
+    background-color: transparent;
+    text-decoration: none;
+    padding: 0.8em;
+    border-radius: 2em;
+    margin-right: em;
+    margin-left: 1em;
+    position: relative;
+    top: -12em;
+}
+
+/* witruimte */
+main ul:nth-of-type(1) {
+    padding: 0;
+    padding-top: 0;
+    margin-top: 0;
+}
+
+
+/* buttons van alle koffies */
+article a:nth-of-type(1) {
+    color: #00754A;
+    text-decoration: none;
+    padding: 0.8em;
+    border: 0.09em solid #00754A;
+    border-radius: 2em;
+    margin: 2em;
+}
+
+
+/* puntjes voor alle h2's weg */
+main ul:nth-of-type(2) {
+    list-style-type: none;
+}
+
+main ul:nth-of-type(3) {
+    list-style-type: none;
+}
+
+main ul:nth-of-type(4) {
+    list-style-type: none;
+}
+
+main ul:nth-of-type(5) {
+    list-style-type: none;
+}
+
+main ul:nth-of-type(6) {
+    list-style-type: none;
+}
+
+main ul:nth-of-type(7) {
+    list-style-type: none;
+}
+
+main ul:nth-of-type(8) {
+    list-style-type: none;
+}
+
+
+
+/* groot scherm */
+@media(min-width:920px) {
+
+    /* onze koffie foto */
+    main ul:nth-of-type(1) img {
+        display: flex;
+        text-decoration: none;
+        list-style-type: none;
+        width: 40%;
+    }
+
+    /* button bestel nu */
+    main ul li:nth-of-type(2) a {
+        margin-left: 2em;
+        margin-right: 70%;
+        position: relative;
+        left: 6em;
+    }
+
+
+    /* button locatie */
+    main ul li:nth-of-type(3) a {
+        margin-left: 2em;
+        margin-right: 70%;
+        position: relative;
+        left: 6em;
+    }
+
+
+    /* Paginatitel Onze koffie */
+    main ul:nth-of-type(1) h1 {
+        font-family: "sodo-sans-light";
+        font-size: 1.5em;
+        position: absolute;
+        top: 22.5em;
+        left: 6em;
+
+    }
+
+
+    /* article's koffie */
+    main article {
+        width: 25%;
+        display: inline-block;
+        /* naast elkaar*/
+        margin-left: 5em;
+    }
+
+
+    /* ALLE TEKST */
+    /* tweede ul */
+    main ul:nth-of-type(2) {
+        display: flex;
+        justify-content: end;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+
+    /* derde ul */
+    main ul:nth-of-type(3) {
+        display: flex;
+        justify-content: end;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+
+    /* vierde ul */
+    main ul:nth-of-type(4) {
+        display: flex;
+        justify-content: end;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+
+    /* vijfde ul */
+    main ul:nth-of-type(5) {
+        display: flex;
+        justify-content: end;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+
+    /* eerste ol */
+    main ol:nth-of-type(1) {
+        display: block;
+        /* onder elkaar  */
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+
+    /* zesde ul */
+    main ul:nth-of-type(6) {
+        display: flex;
+        justify-content: end;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+
+    /* tweede ol */
+    main ol:nth-of-type(2) {
+        display: block;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+
+    /* zevende ul */
+    main ul:nth-of-type(7) {
+        display: flex;
+        justify-content: end;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+
+    /* derde ol */
+    main ol:nth-of-type(3) {
+        display: block;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+
+    /* vierde ol */
+    main ol:nth-of-type(4) {
+        display: block;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+
+    /* achtste ul */
+    main ul:nth-of-type(8) {
+        display: flex;
+        justify-content: end;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+
+}

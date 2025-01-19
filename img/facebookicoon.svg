@@ -1,12 +1,12 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 
 <!-- Uploaded to: SVG Repo, www.svgrepo.com, Transformed by: SVG Repo Mixer Tools -->
-<svg width="40px" height="40px" viewBox="-3.2 -3.2 38.40 38.40" xmlns="http://www.w3.org/2000/svg" fill="#000000">
+<svg fill="#ffffff" width="800px" height="800px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" stroke="#ffffff">
 
 <g id="SVGRepo_bgCarrier" stroke-width="0"/>
 
-<g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" stroke="#CCCCCC" stroke-width="0.064"/>
+<g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/>
 
-<g id="SVGRepo_iconCarrier"> <g fill="none" fill-rule="evenodd"> <path d="m0 0h32v32h-32z"/> <path d="m16 32c-8.8375 0-16-7.1625-16-16s7.1625-16 16-16 16 7.1625 16 16-7.1625 16-16 16zm4.43125-23.884375c-.553125-.078125-1.334375-.115625-2.340625-.115625-1.184375 0-2.13125.328125-2.84375.984375s-1.06875 1.58125-1.06875 2.771875v2.09375h-2.615625v2.84375h2.61875v7.2875h3.140625v-7.29375h2.60625l.4-2.840625h-3.00625v-1.815625c0-.4625.103125-.80625.309375-1.0375.20625-.228125.6-.34375 1.1875-.34375h1.6125z" fill="#ffffff" fill-rule="nonzero"/> </g> </g>
+<g id="SVGRepo_iconCarrier"> <path d="M12 2.03998C6.5 2.03998 2 6.52998 2 12.06C2 17.06 5.66 21.21 10.44 21.96V14.96H7.9V12.06H10.44V9.84998C10.44 7.33998 11.93 5.95998 14.22 5.95998C15.31 5.95998 16.45 6.14998 16.45 6.14998V8.61998H15.19C13.95 8.61998 13.56 9.38998 13.56 10.18V12.06H16.34L15.89 14.96H13.56V21.96C15.9164 21.5878 18.0622 20.3855 19.6099 18.57C21.1576 16.7546 22.0054 14.4456 22 12.06C22 6.52998 17.5 2.03998 12 2.03998Z"/> </g>
 
 </svg>

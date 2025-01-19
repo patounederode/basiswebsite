@@ -107,7 +107,6 @@ responsive
 
   - Github updaten
   - Checken of het een button of een link moet zijn
-  - 
 
 </details>
 
@@ -206,14 +205,16 @@ responsive
 
   ### Dit ging goed/Heb ik geleerd: 
   Korte omschrijving met plaatjes
-
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
 
 
   ### Dit was lastig/Is niet gelukt:
-  Korte omschrijving met plaatjes
+  Het is me niet gelukt om de tekst op groot scherm naast de afbeelding te krijgen
+  En om de articles 2 per rij, aan de linker kant te centreren
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
+  <img src="readme-images/Scherm­afbeelding 2025-01-19 om 17.36.13.png" width="375px" alt="bummer">
+<img src="readme-images/Scherm­afbeelding 2025-01-19 om 17.36.13.pngS" width="375px" alt="bummer">
+
 </details>
 
 
@@ -229,8 +230,5 @@ responsive
   Nb. ChatGpT en andere AI horen er ook bij.
   Nb. Vermeld de bronnen ook in je code.
 
-  1. bron 1
-  2. bron 2
-  3. ...
-
+  1. alle bronnen staan in de code als comments
 </details>
